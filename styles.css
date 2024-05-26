@@ -14,7 +14,7 @@ body {
 
 /* Navigation */
 nav {
-    background-color: #005eb8;
+    background-color: #547ea4;
     padding: 20px;
 }
 
@@ -36,9 +36,6 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-    color: #ffcc00;
-}
 
 /* Sections */
 .container {
@@ -48,12 +45,12 @@ nav ul li a:hover {
 }
 
 h1, h2, h3, h4 {
-    color: #005eb8;
+    color: #547ea4;
 }
 
 /* Homepage */
 #home {
-    background-color: #f2f8ff;
+    background-color: #e9ebef;
     text-align: center;
     padding: 100px 0;
 }
@@ -61,7 +58,7 @@ h1, h2, h3, h4 {
 #home h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #005eb8;
+    color: #547ea4;
     transition: font-size 0.3s ease; /* Add transition for font size */
 }
 
@@ -70,24 +67,24 @@ h1, h2, h3, h4 {
 }
 
 #home p:hover {
-    color: #ffcc00;
+    color: #e87502;
 }
 
 /* About Me */
 #about {
-    background-color: #fff;
+    background-color: #e9ebef;
     padding: 50px 0;
 }
 
 /* Experience, Leadership, Skills & Interests, Projects, Contact */
 section {
-    background-color: #f9f9f9;
+    background-color: #e9ebef;
     padding: 50px 0;
 }
 
 /* Footer */
 footer {
-    background-color: #005eb8;
+    background-color: #547ea4;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -95,13 +92,13 @@ footer {
 
 /* Links */
 a {
-    color: #005eb8;
+    color: #547ea4;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #ffcc00;
+    color: #e87502;
 }
 
 /* Experience List */
@@ -116,6 +113,6 @@ a:hover {
 
 /* Hover effect for section headers */
 h2:hover {
-    color: #ffcc00;
+    color: #e87502;
     cursor: pointer;
 }
