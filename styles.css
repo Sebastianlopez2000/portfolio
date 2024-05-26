@@ -14,7 +14,7 @@ body {
 
 /* Navigation */
 nav {
-    background-color: #547ea4;
+    background-color: #35424a; /* Dark blue-grey */
     padding: 20px;
 }
 
@@ -36,6 +36,9 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
+nav ul li a:hover {
+    color: #ffcc00; /* Yellow */
+}
 
 /* Sections */
 .container {
@@ -45,12 +48,12 @@ nav ul li a {
 }
 
 h1, h2, h3, h4 {
-    color: #547ea4;
+    color: #35424a; /* Dark blue-grey */
 }
 
 /* Homepage */
 #home {
-    background-color: #e9ebef;
+    background-color: #f2f8ff; /* Light blue */
     text-align: center;
     padding: 100px 0;
 }
@@ -58,7 +61,7 @@ h1, h2, h3, h4 {
 #home h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #547ea4;
+    color: #35424a; /* Dark blue-grey */
     transition: font-size 0.3s ease; /* Add transition for font size */
 }
 
@@ -67,24 +70,24 @@ h1, h2, h3, h4 {
 }
 
 #home p:hover {
-    color: #e87502;
+    color: #ffcc00; /* Yellow */
 }
 
 /* About Me */
 #about {
-    background-color: #e9ebef;
+    background-color: #fff; /* White */
     padding: 50px 0;
 }
 
 /* Experience, Leadership, Skills & Interests, Projects, Contact */
 section {
-    background-color: #e9ebef;
+    background-color: #e6e6e6; /* Light grey */
     padding: 50px 0;
 }
 
 /* Footer */
 footer {
-    background-color: #547ea4;
+    background-color: #35424a; /* Dark blue-grey */
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -92,13 +95,13 @@ footer {
 
 /* Links */
 a {
-    color: #547ea4;
+    color: #35424a; /* Dark blue-grey */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #e87502;
+    color: #ffcc00; /* Yellow */
 }
 
 /* Experience List */
@@ -113,6 +116,6 @@ a:hover {
 
 /* Hover effect for section headers */
 h2:hover {
-    color: #e87502;
+    color: #ffcc00; /* Yellow */
     cursor: pointer;
 }
