@@ -1,100 +1,118 @@
-/* styles.css */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Lopez - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#leadership">Leadership</a></li>
+            <li><a href="#skills">Skills & Interests</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-/* Fonts */
-body {
-    font-family: 'Arial', sans-serif;
-}
+    <!-- Homepage -->
+    <section id="home">
+        <h1>Welcome to Ben Lopez's Portfolio</h1>
+        <p>Explore my projects and experience</p>
+    </section>
 
-/* Navigation */
-nav {
-    background-color: #005eb8;
-    padding: 20px;
-}
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Ben Lopez, BA., MSc.</p>
+            <p>Location: London, England</p>
+            <p>Email: <a href="mailto:benjamin.s.v.lopez@gmail.com">benjamin.s.v.lopez@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/BenLopez">linkedin.com/BenLopez</a></p>
+        </div>
+    </section>
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Banking Associate - Virgin Money (Summer 2023)</h3>
+                <ul>
+                    <li>Developed Tableau and Power BI dashboards, increasing insights and predictions for improved forecasting accuracy by 25%.</li>
+                    <li>Trained a team of 6, enhancing productivity in cheque processing by 20%, processing over 1,800 cheques per day and improving data integrity with rigorous auditing and cleaning.</li>
+                    <li>Presented data insights to senior management, highlighting SAP integration improvement opportunities that aligned with the business strategy and led to a 15% increase in operational efficiency.</li>
+                </ul>
+            </div>
+            <!-- Include other job experiences -->
+        </div>
+    </section>
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
+    <!-- Leadership Section -->
+    <section id="leadership">
+        <div class="container">
+            <h2>Leadership</h2>
+            <div class="role">
+                <h3>President of the Entrepreneurship & Networking Society</h3>
+                <p>Led a team organising events/workshops, fostering entrepreneurship among students, showing leadership & organisational skills.</p>
+            </div>
+            <!-- Include other leadership roles -->
+        </div>
+    </section>
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
+    <!-- Skills & Interests Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills & Interests</h2>
+            <h3>Skills</h3>
+            <p>Proficient in R, Python (PySpark & Pandas), Tableau, Power BI, & Excel, Hadoop using SSH & G.Collab</p>
+            <h3>Interests</h3>
+            <p>Prescriptive Healthcare Analytics, Diagnostic Consumer Analytics, Storytelling through data, Continuous Learning</p>
+        </div>
+    </section>
 
-nav ul li a:hover {
-    color: #ffcc00;
-}
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- Include your projects here -->
+            <div class="project">
+                <h3>Financial Conduct Authority Emerging Technology and Data Innovation Competition</h3>
+                <p>Enhancing FCA's Monitoring and Enforcement in Sustainable Finance Through Advanced Data Analytics and Machine Learning</p>
+                <h4>Sustainable Finance Compliance and Monitoring System (SCFMS)</h4>
+                <p>The Sustainable Finance Compliance and Monitoring System (SCFMS) is a comprehensive approach leveraging advanced data analytics and machine learning techniques to address the challenges of greenwashing and non-compliance in sustainable finance.</p>
+                <p>SCFMS works by:</p>
+                <ul>
+                    <li>Developing predictive models to identify potential cases of greenwashing and non-compliance.</li>
+                    <li>Utilizing natural language processing (NLP) to analyze corporate disclosures and public communications for inconsistencies and misleading information.</li>
+                    <li>Implementing anomaly detection algorithms to identify unusual patterns in ESG data and financial transactions.</li>
+                </ul>
+                <p>By integrating these advanced analytics capabilities into the FCA's existing monitoring systems, SCFMS facilitates real-time detection and intervention, ultimately contributing to a more transparent and sustainable financial market.</p>
+            </div>
+        </div>
+    </section>
 
-/* Sections */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 50px 20px;
-}
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me via email at <a href="mailto:benjamin.s.v.lopez@gmail.com">benjamin.s.v.lopez@gmail.com</a> or connect with me on <a href="https://linkedin.com/BenLopez">LinkedIn</a>.</p>
+        </div>
+    </section>
 
-h1, h2, h3, h4 {
-    color: #005eb8;
-}
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ben Lopez - All rights reserved</p>
+        </div>
+    </footer>
 
-/* Homepage */
-#home {
-    background-color: #f2f8ff;
-    text-align: center;
-    padding: 100px 0;
-}
-
-#home h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-    color: #005eb8;
-}
-
-#home p {
-    font-size: 1.2em;
-}
-
-/* About Me */
-#about {
-    background-color: #fff;
-    padding: 50px 0;
-}
-
-/* Experience, Leadership, Skills & Interests, Projects, Contact */
-section {
-    background-color: #f9f9f9;
-    padding: 50px 0;
-}
-
-/* Footer */
-footer {
-    background-color: #005eb8;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-/* Links */
-a {
-    color: #005eb8;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #ffcc00;
-}
+</body>
+</html>

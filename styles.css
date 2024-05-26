@@ -14,7 +14,7 @@ body {
 
 /* Navigation */
 nav {
-    background-color: #333;
+    background-color: #005eb8;
     padding: 20px;
 }
 
@@ -32,6 +32,12 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
 }
 
 /* Sections */
@@ -42,12 +48,12 @@ nav ul li a {
 }
 
 h1, h2, h3, h4 {
-    color: #333;
+    color: #005eb8;
 }
 
 /* Homepage */
 #home {
-    background-color: #f7f7f7;
+    background-color: #f2f8ff;
     text-align: center;
     padding: 100px 0;
 }
@@ -55,6 +61,7 @@ h1, h2, h3, h4 {
 #home h1 {
     font-size: 3em;
     margin-bottom: 20px;
+    color: #005eb8;
 }
 
 #home p {
@@ -75,7 +82,7 @@ section {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #005eb8;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -83,10 +90,11 @@ footer {
 
 /* Links */
 a {
-    color: #007bff;
+    color: #005eb8;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #ffcc00;
 }
