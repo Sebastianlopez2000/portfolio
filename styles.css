@@ -9,12 +9,12 @@
 
 /* Fonts */
 body {
-    font-family: 'Roboto', sans-serif; /* Change font family */
+    font-family: 'Roboto', sans-serif; /* Change font family to Roboto */
 }
 
 /* Navigation */
 nav {
-    background-color: #ff6666; /* Change navigation background color */
+    background-color: #005eb8;
     padding: 20px;
 }
 
@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #005eb8; /* Change hover color */
+    color: #ffcc00;
 }
 
 /* Sections */
@@ -48,12 +48,12 @@ nav ul li a:hover {
 }
 
 h1, h2, h3, h4 {
-    color: #ff6666; /* Change section header color */
+    color: #005eb8;
 }
 
 /* Homepage */
 #home {
-    background-color: #005eb8; /* Change homepage background color */
+    background-color: #f2f8ff;
     text-align: center;
     padding: 100px 0;
 }
@@ -61,21 +61,21 @@ h1, h2, h3, h4 {
 #home h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #fff; /* Change homepage header color */
+    color: #005eb8;
+    transition: font-size 0.3s ease; /* Add transition for font size */
 }
 
 #home p {
     font-size: 1.2em;
-    color: #fff; /* Change homepage paragraph color */
 }
 
 #home p:hover {
-    color: #ffcc00; /* Change homepage paragraph hover color */
+    color: #ffcc00;
 }
 
 /* About Me */
 #about {
-    background-color: #ffcccc; /* Change about me background color */
+    background-color: #fff;
     padding: 50px 0;
 }
 
@@ -87,7 +87,7 @@ section {
 
 /* Footer */
 footer {
-    background-color: #ff6666; /* Change footer background color */
+    background-color: #005eb8;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -112,4 +112,10 @@ a:hover {
 /* Experience List Items */
 #experience ul li {
     margin-bottom: 10px; /* Add spacing between list items */
+}
+
+/* Hover effect for section headers */
+h2:hover {
+    color: #ffcc00;
+    cursor: pointer;
 }
