@@ -62,6 +62,11 @@ h1, h2, h3, h4 {
     font-size: 3em;
     margin-bottom: 20px;
     color: #005eb8;
+    transition: transform 0.5s ease;
+}
+
+#home h1:hover {
+    transform: scale(1.1);
 }
 
 #home p {
@@ -78,6 +83,18 @@ h1, h2, h3, h4 {
 section {
     background-color: #f9f9f9;
     padding: 50px 0;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #005eb8;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.section-title:hover {
+    color: #ffcc00;
 }
 
 /* Footer */
