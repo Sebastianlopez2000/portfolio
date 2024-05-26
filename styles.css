@@ -9,12 +9,12 @@
 
 /* Fonts */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Change font family */
 }
 
 /* Navigation */
 nav {
-    background-color: #005eb8;
+    background-color: #ff6666; /* Change navigation background color */
     padding: 20px;
 }
 
@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffcc00;
+    color: #005eb8; /* Change hover color */
 }
 
 /* Sections */
@@ -48,12 +48,12 @@ nav ul li a:hover {
 }
 
 h1, h2, h3, h4 {
-    color: #005eb8;
+    color: #ff6666; /* Change section header color */
 }
 
 /* Homepage */
 #home {
-    background-color: #f2f8ff;
+    background-color: #005eb8; /* Change homepage background color */
     text-align: center;
     padding: 100px 0;
 }
@@ -61,16 +61,21 @@ h1, h2, h3, h4 {
 #home h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #005eb8;
+    color: #fff; /* Change homepage header color */
 }
 
 #home p {
     font-size: 1.2em;
+    color: #fff; /* Change homepage paragraph color */
+}
+
+#home p:hover {
+    color: #ffcc00; /* Change homepage paragraph hover color */
 }
 
 /* About Me */
 #about {
-    background-color: #fff;
+    background-color: #ffcccc; /* Change about me background color */
     padding: 50px 0;
 }
 
@@ -82,7 +87,7 @@ section {
 
 /* Footer */
 footer {
-    background-color: #005eb8;
+    background-color: #ff6666; /* Change footer background color */
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -97,4 +102,14 @@ a {
 
 a:hover {
     color: #ffcc00;
+}
+
+/* Experience List */
+#experience ul {
+    list-style-type: disc; /* Add bullet points */
+}
+
+/* Experience List Items */
+#experience ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
 }
